@@ -13,3 +13,7 @@ mkdir -p vim
 cp ~/.vimrc vim
 mkdir -p zathura
 cp ~/.config/zathura/zathurarc zathura
+mkdir -p taskwarrior
+cp ~/.taskrc taskwarrior
+cp ~/.task/nord.theme taskwarrior
+cp ~/.task/hooks/on-modify.timewarrior taskwarrior
