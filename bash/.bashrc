@@ -88,7 +88,7 @@ _open_files_for_editing() {
 . "$HOME/.cargo/env"
 
 # My Aliases
-alias ls="lsd -A"
+#alias ls="lsd -A"
 alias c="clear"
 alias yeet="paru -Rcs"
 alias ..="cd .."
@@ -99,7 +99,12 @@ alias tare="tar -xzvf"
 alias pvpn="protonvpn-cli"
 alias src="source ~/.bashrc"
 alias ocr="tesseract"
+alias p2p="protonvpn-cli c --p2p"
+alias r="ranger"
+alias p="paru"
+alias clip="xclip -sel clip <"
 
 # PATHs
-export PATH="/home/konradkon/.local/bin:$PATH"
-
+# export PATH="~/.local/bin:$PATH"
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:/usr/local/go/bin

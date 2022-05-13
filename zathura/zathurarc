@@ -36,3 +36,6 @@ set recolor-keephue             "false"
 set font "Fira Code Nerd Font 10"
 
 set selection-clipboard clipboard
+
+set window-height 1080
+set window-width 1920

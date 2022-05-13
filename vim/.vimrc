@@ -1,66 +1,43 @@
-" runtime path"
-set rtp+=~/.vim/Vundle.vim
+call plug#begin()
 
-" plugins start"
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'preservim/nerdtree'
+Plug 'arcticicestudio/nord-vim'
 
-" plugins end"
-call vundle#end()
-filetype plugin indent on
+call plug#end()
 
-let mapleader=","
+" Allows to CTRL+C in other programs and put in Vim with p and yanking in Vim with y and CTRL+V in other programs
+" https://stackoverflow.com/questions/30691466/what-is-difference-between-vims-clipboard-unnamed-and-unnamedplus-settings
+set clipboard=unnamedplus
 
-" background color
+" Enables dark background
 set bg=dark
 
-" highlight search
-set hlsearch
+" Nord theme
+colorscheme nord
 
-" incremental search
-set incsearch
+" Type file detection
+filetype on
 
-" vim and clipboard may work together
-set clipboard=unnamed
-
-" sets tab size to 4 spaces
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
-
-" converts tab to spaces
-set expandtab
-set autoindent
-
-" makes Windows compatible
-set nocompatible
-
-" filetype plugin on
+" Turns the syntax highlighting
 syntax on
 
-" makes sure of utf-8 and proper fileformat
+ " Enable plugins and load plugin for the detected file type.
+filetype plugin on
+
+" Load an indent file for the detected file type
+filetype indent on
+
+" Makes sure of utf-8 and proper fileformat
 set encoding=utf-8
 set fileformat=unix
 
-" sets the line numbering
+" Sets numbers and then relative numbers
 set number relativenumber
 
-" autocompletion on CTRL + N
-set wildmode=longest,list,full
+" Highlight cursor line underneath the cursor horizontally.
+set cursorline
 
-" disables automatic commenting on newline
-autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions -=o
+" Highlight cursor line underneath the cursor vertically.
+set cursorcolumn
 
-" splits open at the bottom and right, which is non-retarded, unlike vim defaults.
-set splitbelow splitright
-
-" shortcutting split navigation, saving a keypress:
-map <C-h> <C-w>h
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-l> <C-w>l
-
-" automatically deletes all trailing whitespace on save.
-autocmd BufWritePre * %s/\s\+$//e
-
+" Highlight all strings that will be matched in a search while typing the search
+set hlsearch

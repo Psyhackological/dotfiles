@@ -61,17 +61,20 @@ colors:
     #Font
  #Font configuration (changes require restart)
 font:
-  size: 14
+  size: 13
 
   normal:
-    family: FiraCode Nerd Font Mono
+    family: Hack Nerd Font Mono 
     style: regular
 
   bold:
-    family: FiraCode Nerd Font
+    family: Hack Nerd Font 
 
   italic:
-    family: FiraCode Nerd Font
+    family: Hack Nerd Font 
 
 window:
-  opacity: 0.88
+  opacity: 0.90
+  dimensions:
+    columns: 80
+    lines: 23

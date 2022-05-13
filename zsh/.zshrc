@@ -28,10 +28,12 @@ alias ocr="tesseract"
 alias v="ranger ~/Videos"
 alias l="cd ~/Documents/linux_stuff"
 alias d="cd ~/Downloads"
-alias auto="zathura ~/Documents/linux_stuff/e-books/Automate\ the\ Boring\ Stuff\ with\ Python,\ 2nd\ Edition\ Practical\ Programming\ for\ Total\ Beginners\ by\ Al\ Sweigart.pdf"
+alias cat="bat"
 
 # PATHs
 export PATH="/home/konradkon/.local/bin:$PATH"
+export VISUAL=vim
+export EDITOR="$VISUAL"
 
 # Environment variables
 CONF="/home/konradkon/.config"
