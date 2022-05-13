@@ -28,7 +28,7 @@ tealdeer
 timeshift
 timeshift-autosnap
 ufw
-vim
+neovim
 zathura
 zathura-pdf-mupdf
 zsh
