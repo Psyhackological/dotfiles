@@ -75,6 +75,6 @@ font:
 # Window configuration
 window:
   dimensions:
-    columns: 80
-    lines: 23
+    columns: 112
+    lines: 28
 
