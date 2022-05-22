@@ -88,7 +88,7 @@ _open_files_for_editing() {
 . "$HOME/.cargo/env"
 
 # My Aliases
-#alias ls="lsd -A"
+alias ls="lsd -A"
 alias c="clear"
 alias yeet="paru -Rcs"
 alias ..="cd .."
@@ -103,8 +103,8 @@ alias p2p="protonvpn-cli c --p2p"
 alias r="ranger"
 alias p="paru"
 alias clip="xclip -sel clip <"
+alias py="python3"
 
 # PATHs
-# export PATH="~/.local/bin:$PATH"
 export PATH=$PATH:~/.local/bin
 export PATH=$PATH:/usr/local/go/bin
