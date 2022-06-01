@@ -28,3 +28,8 @@ cp taskwarrior/.taskrc ~/.taskrc
 cp taskwarrior/nord.theme ~/.task
 cp taskwarrior/on-modify.timewarrior ~/.task/hooks
 chmod u+x ~/.task/hooks/on-modify.timewarrior
+
+# SUBLIMETEXT4
+mkdir -p ~/.config/sublime-text/Packages/User
+cp sublimetext/Preferences.sublime-settings ~/.config/sublime-text/Packages/User
+cp sublimetext/Package\ Control.sublime-settings ~/.config/sublime-text/Packages/User

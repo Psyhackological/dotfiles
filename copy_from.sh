@@ -30,3 +30,9 @@ mkdir -p taskwarrior
 cp ~/.taskrc taskwarrior
 cp ~/.task/nord.theme taskwarrior
 cp ~/.task/hooks/on-modify.timewarrior taskwarrior
+
+# SUBLIMETEXT4
+mkdir -p sublimetext
+cp ~/.config/sublime-text/Packages/User/Preferences.sublime-settings sublimetext
+cp ~/.config/sublime-text/Packages/User/Package\ Control.sublime-settings sublimetext
+
