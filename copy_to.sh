@@ -33,3 +33,7 @@ chmod u+x ~/.task/hooks/on-modify.timewarrior
 mkdir -p ~/.config/sublime-text/Packages/User
 cp sublimetext/Preferences.sublime-settings ~/.config/sublime-text/Packages/User
 cp sublimetext/Package\ Control.sublime-settings ~/.config/sublime-text/Packages/User
+
+# YT-DLP
+mkdir -p ~/.config/yt-dlp
+cp yt-dlp/config ~/.config/yt-dlp/

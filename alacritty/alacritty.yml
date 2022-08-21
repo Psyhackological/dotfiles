@@ -8,6 +8,17 @@
 # References:
 # https://github.com/alacritty/alacritty
 
+# General
+title: Alacritty
+
+
+# Window class (Linux/BSD only):
+class:
+  # Application instance name
+  instance: Alacritty
+  # General application class
+  general: Alacritty
+
 # Color Scheme
 colors:
   primary:
@@ -60,17 +71,23 @@ colors:
 
 #Font configuration
 font:
-  size: 13
-
   normal:
-    family: Hack Nerd Font Mono 
-    style: regular
+    family: JetBrains Mono
+    style: Regular
 
   bold:
-    family: Hack Nerd Font 
+    family: JetBrains Mono
+    style: Bold
 
   italic:
-    family: Hack Nerd Font 
+    family: JetBrains Mono
+    style: Italic
+
+  bold_italic:
+    family: JetBrains Mono
+    style: Bold Italic
+
+  size: 13
 
 # Window configuration
 window:

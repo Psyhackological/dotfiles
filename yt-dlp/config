@@ -1,0 +1,8 @@
+# Output file 
+-o "~/Videos/yt-dlp/%(title)s.%(ext)s"
+
+# Embed subtitles
+--embed-subs
+
+# Embed metadata
+--embed-metadata

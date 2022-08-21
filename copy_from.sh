@@ -36,3 +36,6 @@ mkdir -p sublimetext
 cp ~/.config/sublime-text/Packages/User/Preferences.sublime-settings sublimetext
 cp ~/.config/sublime-text/Packages/User/Package\ Control.sublime-settings sublimetext
 
+# YT-DLP
+mkdir -p yt-dlp
+cp ~/.config/yt-dlp/config yt-dlp

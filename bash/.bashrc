@@ -92,7 +92,6 @@ alias ls="lsd -A"
 alias c="clear"
 alias yeet="paru -Rcs"
 alias ..="cd .."
-alias yt-dl='yt-dlp -o "%(title)s.%(ext)s" --embed-subs --embed-metadata'
 alias mkdir="mkdir -pv"
 alias tarc="tar -czvf"
 alias tare="tar -xzvf"
@@ -104,7 +103,30 @@ alias r="ranger"
 alias p="paru"
 alias clip="xclip -sel clip <"
 alias py="python3"
+alias muza="mpv --shuffle --no-audio-display /run/media/konradkon/Seagate\ Expansion\ Drive/Music/Favourites/"
+alias nv="nvim"
 
 # PATHs
 export PATH=$PATH:~/.local/bin
 export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:~/Documents/sh
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/konradkon/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/konradkon/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/konradkon/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/konradkon/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+FCC=~/Documents/GitHub/freeCodeCamp/
+RUST=~/Documents/rust-course-data/exercises/activities/
+
+eval "$(starship init bash)"
