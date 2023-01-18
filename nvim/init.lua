@@ -3,8 +3,9 @@ return {
   plugins = {
     init = {
       {
-      "rmehri01/onenord.nvim", as = "onenord", 
-      config = function() require("onenord").setup {} end,
+        "rmehri01/onenord.nvim",
+        as = "onenord",
+        config = function() require("onenord").setup {} end,
       },
     },
   },
@@ -20,6 +21,6 @@ return {
     g = {
       neovide_cursor_vfx_mode = "pixiedust",
       -- neovide_fullscreen = true,
-    }
+    },
   },
 }
