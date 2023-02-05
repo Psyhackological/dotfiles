@@ -1,8 +1,23 @@
 # Output file 
 -o "~/Videos/yt-dlp/%(title)s.%(ext)s"
 
+# Subtitles languages
+--sub-langs pl,en
+
 # Embed subtitles
 --embed-subs
 
-# Embed metadata
+# Embed  metadata  to  the  video file.  Also embeds chapters/infojson if present unless --no-embed-chapters/--no-embed-info-json are used (Alias: --add-metadata)
 --embed-metadata
+
+# Embed thumbnail in the video as cover art
+--embed-thumbnail
+
+# Download the best video and audio up to 1080p
+-f "bv*[height<=1080]+ba"
+
+# Containers that may be used when merging formats, separated by "/", e.g. "mp4/mkv". Ignored if no merge is required. (currently supported: avi, flv, mkv, mov, mp4, webm)
+--merge-output-format mkv
+
+# Remove sponsorblock segments
+--sponsorblock-remove all,-filler 
