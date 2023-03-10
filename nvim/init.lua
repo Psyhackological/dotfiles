@@ -1,15 +1,17 @@
 return {
   colorscheme = "onenord",
   plugins = {
-    init = {
-      {
-        "rmehri01/onenord.nvim",
-        as = "onenord",
-        config = function() require("onenord").setup {} end,
-      },
+    {
+      "rmehri01/onenord.nvim",
+      as = "onenord",
+      config = function() require("onenord").setup {} end,
     },
+    -- {
+    --   "folke/trouble.nvim",
+    --   requires = "nvim-tree/nvim-web-devicons",
+    --   config = function() require("trouble").setup {} end,
+    -- },
   },
-
   -- set vim options here (vim.<first_key>.<second_key> =  value)
   options = {
     opt = {
