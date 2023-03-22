@@ -7,7 +7,7 @@
 # Embed subtitles
 --embed-subs
 
-# Embed  metadata  to  the  video file.  Also embeds chapters/infojson if present unless --no-embed-chapters/--no-embed-info-json are used (Alias: --add-metadata)
+# Embed metadata to the video file. Also embeds chapters/infojson if present unless --no-embed-chapters/--no-embed-info-json are used (Alias: --add-metadata)
 --embed-metadata
 
 # Embed thumbnail in the video as cover art
@@ -20,4 +20,4 @@
 --merge-output-format mkv
 
 # Remove sponsorblock segments
---sponsorblock-remove all,-filler 
+--sponsorblock-remove all,-filler
