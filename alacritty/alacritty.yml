@@ -76,28 +76,41 @@ colors:
     cyan: '#6d96a5'
     white: '#aeb3bb'
 
-#Font configuration
+# Font configuration
 font:
   normal:
     family: JetBrainsMono Nerd Font
     style: Regular
-
   bold:
     family: JetBrainsMono Nerd Font
     style: Bold
-
   italic:
     family: JetBrainsMono Nerd Font
     style: Italic
-
   bold_italic:
     family: JetBrainsMono Nerd Font
     style: Bold Italic
-
   size: 13
 
 # Window configuration
 window:
   dimensions:
-    columns: 112
-    lines: 28
+    columns: 154
+    lines: 43
+  padding:
+    x: 12
+    y: 12
+
+key_bindings:
+  - { key: N, mods: Control|Shift, command: { program: "alacritty" } }
+
+scrolling:
+  history: 1000
+  multiplier: 3
+  faux_multiplier: 3
+
+cursor:
+  style:
+    shape: Beam
+    blinking: Always
+  blink_interval: 500
