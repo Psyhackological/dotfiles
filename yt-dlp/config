@@ -1,5 +1,5 @@
 # Output file 
--o "~/Videos/yt-dlp/%(title)s.%(ext)s"
+-o "~/Videos/yt-dlp/%(channel)s/%(title)s.%(ext)s"
 
 # Subtitles languages
 --sub-langs pl,en
