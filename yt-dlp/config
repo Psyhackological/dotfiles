@@ -1,5 +1,5 @@
 # Output file 
--o "~/Videos/yt-dlp/%(channel)s/%(title)s.%(ext)s"
+-o "/run/media/konradkon/SamsungT7/yt-dlp/%(channel)s/%(title)s.%(ext)s"
 
 # Subtitles languages
 --sub-langs pl,en
