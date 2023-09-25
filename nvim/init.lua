@@ -14,8 +14,11 @@ return {
   },
   -- set vim options here (vim.<first_key>.<second_key> =  value)
   options = {
+    o = {
+      termguicolors = true,
+    },
     opt = {
-      guifont = { "JetBrains_Mono_Nerd_Font", ":h13" }, -- JetBrains Mono Nerd Font with 13 font size for Neovide
+      guifont = { "JetBrains_Mono_Nerd_Font", ":h8" }, -- JetBrains Mono Nerd Font with 8 font size for Neovide
       wrap = true, -- Softwarp text with this
       shiftwidth = 4, -- Number of space inserted for indentation
       tabstop = 4, -- Number of space in a tab
