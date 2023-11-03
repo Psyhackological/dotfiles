@@ -1,11 +1,10 @@
 {
 	// Dark Nord Theme
-	"theme": "Default Dark.sublime-theme",
-	"color_scheme": "Nord.sublime-color-scheme",
+
 
 	// JetBrains mono font settings
 	"font_face": "JetBrains Mono",
-	"font_size": 13,
+	"font_size": 11,
 	"line_padding_top": 1,			// 13*1.2 - 13 = 2.6 
 	"line_padding_bottom": 1, 		// 2.6 - 1 - 1 = 0.6 (0.6 pixel does not exist)
 
@@ -16,6 +15,7 @@
 	"bold_folder_labels": true,
 	"line_numbers": true,
 	"highlight_modified_tabs": true,
+	"rulers": [80],
 
 	// Caret settings
 	"caret_style": "phase",
@@ -29,4 +29,12 @@
 	"save_on_focus_lost": true,
 	"translate_spaces_to_tabs": false,
 	"translate_tabs_to_spaces": true,
+	"ignored_packages":
+	[
+		"Rust",
+		"Vintage",
+	],
+	"terminal": "alacritty",
+	"color_scheme": "Nord.sublime-color-scheme",
+	"update_check": false,
 }

@@ -7,10 +7,17 @@
 	[
 		"A File Icon",
 		"BracketHighlighter",
+		"gruvbox",
+		"Javascript Beautify",
 		"Nord",
 		"Package Control",
 		"Rust Enhanced",
 		"RustFmt",
 		"SideBarEnhancements",
+		"SpaceDuck Color Scheme",
+		"SublimeLinter",
+		"Terminus",
+		"Theme - Monokai Pro",
+		"Zen Tabs",
 	],
 }
