@@ -1,5 +1,27 @@
-# WIP
+# My dotfiles using [chezmoi](https://www.chezmoi.io/)
 
-I will use [this amazing tool](chezmoi.io/) to manage my dotfiles.
+## Bash
+- `.bashrc`
 
-Stay tuned.
+## Tmux
+- `.tmux.conf`
+
+## Alacritty
+- `alacritty.yml`
+
+## mpv
+- `mpv.conf`
+- `input.conf`
+
+## neovim
+- `init.lua`
+
+## Sublime Text
+- `Preferences.sublime-settings`
+- `Package Control.sublime-settings`
+
+## yt-dlp
+- `config`
+
+## zathura
+- `zathurarc`
