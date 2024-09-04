@@ -1,23 +1,47 @@
-# Output file 
--o "/run/media/konradkon/SamsungT7/yt-dlp/%(channel)s/%(title)s.%(ext)s"
+# Output filename template; see "OUTPUT
+# TEMPLATE" for details
+-o "/media/konradkon/T9/yt-dlp/%(channel)s/%(title)s.%(ext)s"
 
-# Subtitles languages
---sub-langs pl,en
+# The default format selector is bv*+ba/b. This means that if a combined video + audio format that is better than the best video-only format is found, the former will be preferred. Use -f bv+ba/b or --compat-options format-spec to revert this
 
-# Embed subtitles
---embed-subs
+# Sort the formats by the fields given, see
+# "Sorting Formats" for more details
+-S "res:2160,br,ext"
 
-# Embed metadata to the video file. Also embeds chapters/infojson if present unless --no-embed-chapters/--no-embed-info-json are used (Alias: --add-metadata)
+# Containers that may be used when merging
+# formats, separated by "/", e.g. "mp4/mkv".
+# Ignored if no merge is required. (currently
+# supported: avi, flv, mkv, mov, mp4, webm)
+--merge-output-format "mkv"
+
+# SponsorBlock categories to be removed from
+# the video file, separated by commas. If a
+# category is present in both mark and remove,
+# remove takes precedence. The syntax and
+# available categories are the same as for
+# --sponsorblock-mark except that "default"
+# refers to "all,-filler" and poi_highlight,
+# chapter are not available
+--sponsorblock-remove all,-filler
+
+# Embed metadata to the video file. Also
+# embeds chapters/infojson if present unless
+# --no-embed-chapters/--no-embed-info-json are
+# used (Alias: --add-metadata)
 --embed-metadata
 
 # Embed thumbnail in the video as cover art
 --embed-thumbnail
 
-# Download the best video and audio up to 1080p
--f "bv*[height<=1080]+ba"
+# Languages of the subtitles to download (can
+# be regex) or "all" separated by commas, e.g.
+# --sub-langs "en.*,ja". You can prefix the
+# language code with a "-" to exclude it from
+# the requested languages, e.g. --sub-langs
+# all,-live_chat. Use --list-subs for a list
+# of available language tags
+--sub-langs pl,en
 
-# Containers that may be used when merging formats, separated by "/", e.g. "mp4/mkv". Ignored if no merge is required. (currently supported: avi, flv, mkv, mov, mp4, webm)
---merge-output-format mkv
-
-# Remove sponsorblock segments
---sponsorblock-remove all,-filler
+# Embed subtitles in the video (only for mp4,
+# webm and mkv videos)
+--embed-subs
