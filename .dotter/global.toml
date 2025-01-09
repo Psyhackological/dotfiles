@@ -1,0 +1,15 @@
+[helpers]
+
+[default]
+depends = []
+
+[default.files]
+"README.md" = ""
+dot_bashrc = ""
+dot_config = ""
+"dot_tmux.conf" = ""
+
+[default.variables]
+
+[settings]
+default_target_type = "automatic"
