@@ -1,6 +1,3 @@
 includes = []
-packages = ["default"]
+packages = ["alacritty"]
 
-[files]
-
-[variables]
