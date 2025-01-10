@@ -1,0 +1,20 @@
+[user]
+	name = Psyhackological
+	email = konradkon@duck.com
+[alias]
+	lg = log --oneline --graph
+	d = diff
+	c = commit
+	p = push
+	r = reset
+	s = status -s
+	cam = commit -am
+[core]
+	editor = hx
+[diff]
+    external = difft
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

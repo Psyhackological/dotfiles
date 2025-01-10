@@ -32,3 +32,7 @@ default_target_type = "automatic"
 
 [yt-dlp.files]
 "yt-dlp/config" = "~/.config/yt-dlp/config"
+
+[git.files]
+"git/config" = "~/.config/git/config"
+
