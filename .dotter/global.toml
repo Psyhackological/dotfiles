@@ -24,3 +24,9 @@ default_target_type = "automatic"
 
 [zathura.files]
 "zathura/zathurarc" = "~/.config/zathura/zathurarc"
+
+[mpv.files]
+"mpv/mpv.conf" = "~/.config/mpv/mpv.conf"
+"mpv/input.conf" = "~/.config/mpv/input.conf"
+"mpv/scripts/skipsilence.lua" = "~/.config/mpv/scripts/skipsilence.lua"
+
