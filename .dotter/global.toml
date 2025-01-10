@@ -15,3 +15,5 @@ default_target_type = "template"
 [alacritty.files]
 "alacritty/alacritty.toml" = "~/.config/alacritty/alacritty.toml"
 
+[zellij.files]
+"zellij/config.kdl" = "~/.config/zellij/config.kdl"
