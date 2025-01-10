@@ -1,4 +1,4 @@
-# My dotfiles using [chezmoi](https://www.chezmoi.io/)
+# My dotfiles using [dotter](https://github.com/SuperCuber/dotter)
 
 ## Bash
 - `.bashrc`
