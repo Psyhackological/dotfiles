@@ -30,3 +30,5 @@ default_target_type = "automatic"
 "mpv/input.conf" = "~/.config/mpv/input.conf"
 "mpv/scripts/skipsilence.lua" = "~/.config/mpv/scripts/skipsilence.lua"
 
+[yt-dlp.files]
+"yt-dlp/config" = "~/.config/yt-dlp/config"
