@@ -21,3 +21,6 @@ default_target_type = "automatic"
 [helix.files]
 "helix/config.toml" = "~/.config/helix/config.toml"
 "helix/languages.toml" = "~/.config/helix/languages.toml"
+
+[zathura.files]
+"zathura/zathurarc" = "~/.config/zathura/zathurarc"
