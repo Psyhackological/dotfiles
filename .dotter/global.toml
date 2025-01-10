@@ -10,10 +10,14 @@ depends = []
 [default.variables]
 
 [settings]
-default_target_type = "template"
+default_target_type = "automatic"
 
 [alacritty.files]
 "alacritty/alacritty.toml" = "~/.config/alacritty/alacritty.toml"
 
 [zellij.files]
 "zellij/config.kdl" = "~/.config/zellij/config.kdl"
+
+[helix.files]
+"helix/config.toml" = "~/.config/helix/config.toml"
+"helix/languages.toml" = "~/.config/helix/languages.toml"

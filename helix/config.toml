@@ -1,0 +1,20 @@
+theme = "nord"
+
+[editor]
+line-number = "relative"
+mouse = false
+
+[editor.file-picker]
+hidden = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.lsp]
+display-inlay-hints = true
+
+[keys.normal]
+C-o = ":open ~/.config/helix/config.toml" # Maps Ctrl-o to opening of the helix config file
+0 = "goto_line_start"
