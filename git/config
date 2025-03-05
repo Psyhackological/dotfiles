@@ -9,6 +9,7 @@
 	r = reset
 	s = status -s
 	cam = commit -am
+	pushall = !git push origin && git push github
 [core]
 	editor = hx
 [diff]
