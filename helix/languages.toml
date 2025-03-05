@@ -6,6 +6,11 @@ language-servers = ["tinymist"]
 name = "rust"
 language-servers = [ "rust-analyzer" ]
 
+[[language]]
+name = "go"
+auto-format = true
+formatter = { command = "goimports" }
+
 [language-server.tinymist]
 command = "tinymist"
 
