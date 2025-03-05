@@ -82,8 +82,8 @@ TERM = "xterm-256color"
 
 [window]
 padding = { x = 2, y = 2 } # default 0, 0
-dynamic_padding = true # default false
-decorations = "None" # default "Full"
+dynamic_padding = true     # default false
+decorations = "Full"       # default "Full"
 startup_mode = "Maximized" # default "Windowed"
 
 # ====
@@ -91,8 +91,8 @@ startup_mode = "Maximized" # default "Windowed"
 # ====
 
 [font]
-size = 13 # default 11.25
-offset.y = 2 # default 0
+size = 13                          # default 11.25
+offset.y = 2                       # default 0
 normal.family = "JetBrainsMono NF"
 
 # ======
@@ -103,7 +103,7 @@ normal.family = "JetBrainsMono NF"
 blink_interval = 500 # default 750 
 
 [cursor.style]
-shape = "Beam" # default "Block"
+shape = "Beam"  # default "Block"
 blinking = "On" # default "Off"
 
 # =========
@@ -118,15 +118,11 @@ save_to_clipboard = true # default false
 # =================
 
 [keyboard]
-bindings = [
-  { key = "N", mods = "Control|Shift", action = "CreateNewWindow" }
-]
+bindings = [{ key = "N", mods = "Control|Shift", action = "CreateNewWindow" }]
 
 # ==============
 # Mouse Bindings
 # ==============
 
 [mouse]
-bindings = [
-  { mouse = "Right", mods = "Control", action = "Paste" },
-]
+bindings = [{ mouse = "Right", mods = "Control", action = "Paste" }]
