@@ -1,2 +1,2 @@
 includes = []
-packages = ["alacritty", "zellij", "helix", "zathura", "mpv", "yt-dlp", "git", "fish", "tidal_dl_ng"]
+packages = ["alacritty", "zellij", "helix", "zathura", "mpv", "yt-dlp", "git", "fish", "tidal_dl_ng", "cosmic"]
