@@ -40,3 +40,6 @@ default_target_type = "automatic"
 "fish/config.fish" = "~/.config/fish/config.fish"
 "fish/completions" = "~/.config/fish/completions"
 "fish/functions" = "~/.config/fish/functions"
+
+[tidal_dl_ng.files]
+"tidal_dl_ng/settings.json" = "~/.config/tidal_dl_ng/settings.json"
