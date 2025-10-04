@@ -1,27 +1,27 @@
-# My dotfiles using [dotter](https://github.com/SuperCuber/dotter)
+# psyhackological/dotfiles
 
-## Bash
-- `.bashrc`
+## Dotter
+My dotfiles using [dotter](https://github.com/SuperCuber/dotter). Documentation: [dotter/Wiki](https://github.com/SuperCuber/dotter/wiki)
 
-## Tmux
-- `.tmux.conf`
+## Installation
+Use cargo:
 
-## Alacritty
-- `alacritty.yml`
+```bash
+cargo install dotter
+````
 
-## mpv
-- `mpv.conf`
-- `input.conf`
+## Usage
 
-## neovim
-- `init.lua`
+Deploy dotfiles with
 
-## Sublime Text
-- `Preferences.sublime-settings`
-- `Package Control.sublime-settings`
+```bash
+dotter deploy
+```
 
-## yt-dlp
-- `config`
 
-## zathura
-- `zathurarc`
+Undeploy dotfiles with
+
+
+```bash
+dotter undeploy
+```
