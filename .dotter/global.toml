@@ -36,3 +36,7 @@ default_target_type = "automatic"
 [git.files]
 "git/config" = "~/.config/git/config"
 
+[fish.files]
+"fish/config.fish" = "~/.config/fish/config.fish"
+"fish/completions" = "~/.config/fish/completions"
+"fish/functions" = "~/.config/fish/functions"

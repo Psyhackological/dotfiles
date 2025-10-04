@@ -1,2 +1,2 @@
 includes = []
-packages = ["alacritty", "zellij", "helix", "zathura", "mpv", "yt-dlp", "git"]
+packages = ["alacritty", "zellij", "helix", "zathura", "mpv", "yt-dlp", "git", "fish"]
