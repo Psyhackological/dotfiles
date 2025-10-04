@@ -4,6 +4,9 @@ theme = "curzon"
 line-number = "relative"
 mouse = false
 
+[editor.soft-wrap]
+enable = true
+
 [editor.file-picker]
 hidden = false
 
@@ -18,3 +21,9 @@ display-inlay-hints = true
 [keys.normal]
 C-o = ":open ~/.config/helix/config.toml" # Maps Ctrl-o to opening of the helix config file
 0 = "goto_line_start"
+C-r = [
+    ":write-all",
+    ":insert-output scooter >/dev/tty",
+    ":redraw",
+    ":reload-all"
+]
