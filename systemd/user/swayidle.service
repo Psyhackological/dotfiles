@@ -1,0 +1,1 @@
+ln -s ~/.config/systemd/user/swayidle.service ~/.config/systemd/user/niri.service.wants/
