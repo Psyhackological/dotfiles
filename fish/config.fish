@@ -33,7 +33,7 @@ alias apt='nala'
 alias g='git'
 alias u='sudo apt update && sudo apt upgrade && sudo apt auto-remove'
 alias fixwin='sudo efibootmgr -d /dev/nvme0n1 -p 1 -c -L "Windows Boot Manager" -l "\EFI\Microsoft\Boot\bootmgfw.efi"'
-alias cache='sudo apt autoremove && pip cache purge'
+alias cache='sudo apt autoremove && pip cache purge && uv cache clean'
 # alias cd='z'
 alias nlp='cd ~/Documents/jupter_notebook/ && source ~/nlp/bin/activate && jupyter notebook NLP.ipynb'
 # alias nvim='neovide'
@@ -68,6 +68,7 @@ set -x SDL_VIDEODRIVER wayland
 set -x PATH $HOME/bin $PATH
 set -x PATH $PATH $HOME/.local/bin
 set -x PATH $PATH /usr/local/go/bin
+set -x PATH $PATH $HOME/.iximiuz/labctl/bin
 
 # ?
 # set -x SSH_AUTH_SOCK "$XDG_RUNTIME_DIR/gcr/ssh"
@@ -86,5 +87,8 @@ set -x SSH_AUTH_SOCK "$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 starship init fish | source
 zoxide init fish | source
-navi widget fish | source
+#navi widget fish | source
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# opencode
+fish_add_path /home/konradkon/.opencode/bin
